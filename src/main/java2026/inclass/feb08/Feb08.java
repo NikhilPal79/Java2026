@@ -1,6 +1,6 @@
-package inclass;
+package inclass.feb08;
 
-public class feb08 {
+public class Feb08 {
 
     static void main() {
         System.out.println("");
