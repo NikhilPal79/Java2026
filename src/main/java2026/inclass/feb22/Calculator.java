@@ -12,13 +12,10 @@ public class Calculator {
         int n;
         Arithmetic ar = new Arithmetic();
 
-
-
             System.out.println("***********************");
             System.out.println("WELCOME TO MY CALCULATOR");
             System.out.println("***********************");
         do {
-
             System.out.println("1. ADDITION");
             System.out.println("2. SUBTRACTION");
             System.out.println("3. MULTIPLICATION");
@@ -29,50 +26,71 @@ public class Calculator {
             System.out.println(" ENTER YOUR CHOICE");
             n = sc.nextInt();
 
-            int result = 0;
-
 
             switch (n) {
                 case 1:
-                    int sum = ar.sum(20, 20);
-                    System.out.println("20 + 20 = " + sum);
+                    System.out.println("Enter first number");
+                    int num1 = sc.nextInt();
+                    System.out.println("Enter second number");
+                    int num2 = sc.nextInt();
+                    System.out.println(ar.sum(num1, num2));
                     break;
                 case 2:
-                    int sub = ar.sub(20, 50);
-                    System.out.println("20 - 50 = " + sub);
+                    System.out.println("Enter first number");
+                    int num3 = sc.nextInt();
+                    System.out.println("Enter second number");
+                    int num4 = sc.nextInt();
+                    System.out.println(ar.sub(num3, num4));
                     break;
                 case 3:
-                    int mul = ar.mul(10, 20);
-                    System.out.println("10 * 20 = " + mul);
+                    System.out.println("Enter first number");
+                    int num5 = sc.nextInt();
+                    System.out.println("Enter second number");
+                    int num6 = sc.nextInt();
+                    System.out.println(ar.mul(num5, num6));
                     break;
                 case 4:
-                    int div = ar.div(50, 5);
-                    System.out.println("5 / 5 = " + div);
+                    System.out.println("Enter first number");
+                    int num7 = sc.nextInt();
+                    System.out.println("Enter second number");
+                    int num8 = sc.nextInt();
+                    System.out.println(ar.div(num7, num8));
                     break;
                 case 5:
-                    int mod = ar.mod(100, 50);
-                    System.out.println("100 % 5 = " + mod);
+                    System.out.println("Enter first number");
+                    int num9 = sc.nextInt();
+                    System.out.println("Enter second number");
+                    int num10 = sc.nextInt();
+                    System.out.println(ar.mod(num9, num10));
                     break;
                 case 6:
+                    n =0;
                     System.out.println("exit");
                     break;
+                case 7:
                 default:{
                     System.out.println("Invalid choice");
                 }
             }
-            if (n != 0 ){
+
+            if (n <=5 && n !=0 && n >=1 ) {
                 System.out.println("DO YOU WANT TO CONTINUE");
                 System.out.println("1. YES");
                 System.out.println("2. NO ");
 
+                System.out.println("ENTER YOUR CHOICE");
                 char choice = sc.next().charAt(0);
-
-                choice = Character.toLowerCase(choice);
-            }else{
-                System.out.println("Invalid choice");
+                if (choice == 'Y' || choice == 'y'){
+                    System.out.println("***********************");
+                    System.out.println("WELCOME TO MY CALCULATOR");
+                    System.out.println("***********************");
+                } else if (choice == 'N' || choice == 'n') {
+                    System.out.println("THANKS FOR USING ");
+                    n=0;
+                }
             }
-
         }while( n!=0 );
+
 
     }
 }

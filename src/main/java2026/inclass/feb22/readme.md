@@ -4,6 +4,10 @@
 3. class does not store any memory 
 ## [MEMBER VARIABLES]
 ## [CONSTRUCTOR]
+1. kind of method which has the same name of class name 
+2. initialize the object 
+3. does not have the return type
+4. IF YOU DON'T MAKE ANY CONSTRUCTOR, THERE IS a DEFAULT CONSTRUCTOR THERE 
 ## [METHOD] 
 
 how to create method ?
@@ -36,3 +40,6 @@ no restriction to access
 restricted to single entity/ owner 
 # PROTECTED
 # DEFAULT 
+
+# METHOD OVERLOADING 
+same name with different parameters
