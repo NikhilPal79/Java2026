@@ -1,0 +1,16 @@
+# BRANCH
+not to disturb our main branch 
+
+
+3-4 type of branch 
+main  branch--------------------------------------------->production /customer 
+staging branch------------------------------------------> pre-production
+feature branch ------------------------------------------->
+developers branch -----------------------------------------> for testing/QA
+
+# COMMANDS 
+1. git branch 
+2. git branch name [crating new branch]
+3. git checkout name [move to other branch]    git checkout -b name[to move and create in single step]
+4. git branch -D name [delete the branch ]
+5. 
