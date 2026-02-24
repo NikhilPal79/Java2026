@@ -17,3 +17,15 @@ developers branch -----------------------------------------> for testing/QA
 # MERGE COMMANDS 
 1. [giving command from main]git merge staging
 2. [giving command from staging] git merge testing 
+
+
+# GIT PULL 
+1. git pull[make change to git and apply git pull to bring change to local ]
+
+
+# PULL REQUEST [PR]
+ask our teammates to approve our code before it can be merged to staging/main
+because in real time staging & main branch is locked 
+
+
+let create a pull request 
