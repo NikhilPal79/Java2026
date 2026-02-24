@@ -13,4 +13,7 @@ developers branch -----------------------------------------> for testing/QA
 2. git branch name [crating new branch]
 3. git checkout name [move to other branch]    git checkout -b name[to move and create in single step]
 4. git branch -D name [delete the branch ]
-5. 
+
+# MERGE COMMANDS 
+1. [giving command from main]git merge staging
+2. [giving command from staging] git merge testing 
