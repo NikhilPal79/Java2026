@@ -9,6 +9,7 @@ public class BankMain {
         Bank.anotherMethod2();
 
         Bank b = new Bank();
+        Bank b2 = new Bank();
         b.showMethod();
 
 
