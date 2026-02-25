@@ -29,3 +29,16 @@ REFERENCE of OBJECT s
 
 INSTANCE VARIABLE in heap
 OBJECT stores in heap  
+
+
+# STATIC 
+1. VARIABLE 
+2. METHOD 
+3. CLASS 
+4. BLOCK [IT WILL RUN BEFORE ANY METHOD]
+5. INSTANCE 
+
+# ANONYMOUS OBJECT 
+which dont have reference name
+
+# JVM, JRE, JDK 
