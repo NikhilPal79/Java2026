@@ -1,6 +1,5 @@
 package inclass.feb22;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Calculator {

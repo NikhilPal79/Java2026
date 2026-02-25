@@ -20,8 +20,8 @@ permission
 
 
 # Sort command
-1. sort file_name    - in natural sorted order 
-2. sort -r file_name - reverse order
+1. [sort file_name]    - in natural sorted order 
+2. [sort -r file_name] - reverse order
 
 # shell scripting 
 1. create a file with .sh extension file.sh

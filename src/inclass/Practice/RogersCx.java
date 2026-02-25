@@ -20,13 +20,21 @@ public class RogersCx {
         Scanner sc = new Scanner(System.in);
         int languageChoice;
         languageChoice = sc.nextInt();
-
-
         boolean continueSession = true;
+
+    if(languageChoice == 1 ||languageChoice == 2 || languageChoice == 3){
+
+        System.out.println("Your choice is : " + languageChoice );
+        continueSession = true;
+
+    }else{
+        System.out.println("Invalid choice");
+        continueSession = true;
+    }
 
         do {
 
-            if (languageChoice >= 1 || languageChoice <= 3) {
+            if (languageChoice == 1 || languageChoice == 2 || languageChoice == 3) {
 
                 System.out.println(" THANKS FOR CHOOSING ROGERS ");
                 System.out.println(" YOURS OPTION ARE BELOW ");
@@ -41,6 +49,11 @@ public class RogersCx {
                 System.out.println(" ENTER YOUR CHOICE ");
                 int menuChoice;
                 menuChoice = sc.nextInt();
+
+                if (menuChoice == 6) {
+                    System.out.println(" THANKS FOR USING ROGERS ");
+                    continueSession = true;
+                }
 
                 switch (menuChoice) {
                     case 1:
@@ -129,6 +142,7 @@ public class RogersCx {
                     char choice = sc.next().charAt(0);
                     if (choice == 'Y' || choice == 'y') {
                         System.out.println(" WELCOME TO ROGERS AGAIN");
+                        continueSession = true;
                     } else if (choice == 'N' || choice == 'n') {
                         System.out.println(" HAVE A GOOD DAY ");
                         continueSession = false;
