@@ -47,4 +47,13 @@ which dont have reference name
 # ARRAY 
 collection of homogeneous data types 
 
-# REVERSE ARRAY 
+# REVERSE ARRAY & MINI AND MAX ARRAY 
+
+
+# new keyword gives memory to object and stored in heap memory;
+# static instance run whenever every instance is created and static block run whenever the class is created 
+
+# why main method id static 
+bcz we don't need to create the object of static method in the same class 
+
+# all static methods stored in the method area called meta space 
