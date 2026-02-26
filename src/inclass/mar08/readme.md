@@ -41,3 +41,6 @@ WhatsApp ---> status ----> number of users who can see the status
 Profile - lock your profile friend list - you can not access
 
 [Data hiding] - [Abstraction / Encapsulation]
+
+
+##### EVERY JAVA CLASS HAS A PARENT CLASS [OBJECT CLASS]
