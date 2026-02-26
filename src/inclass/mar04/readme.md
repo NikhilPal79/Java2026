@@ -21,7 +21,7 @@ strings are immutable [ that we cant change ] [because we can not change the act
 # 2 WAYS TO CREATE STRINGS 
 1. USING STRING LITERAL 
 
-String name = "Pragra";      {THIS name is stored in stack while PRAGRA is giong to stored in STRING CONSTANT POOL IN HEAP}
+String name = "Pragra";      {THIS name is stored in stack while PRAGRA is going to be stored in STRING CONSTANT POOL IN HEAP}
 
 String myName = "Pragra";    {myName in stack and Pragra in STRING CONSTANT POOL IN HEAP}
 
