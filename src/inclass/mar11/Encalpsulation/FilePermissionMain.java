@@ -14,8 +14,8 @@ public class FilePermissionMain {
 
 
 
-        ///  case 2 = write only
+        ///  case 2 = write only [excluding getter ]
 
-        ///  read and write
+        ///  read and write [excluding nothing]
     }
 }
