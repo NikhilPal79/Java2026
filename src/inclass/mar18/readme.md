@@ -5,7 +5,7 @@
 # DOWN CASTING 
 
 
-# INTERFACES [TO USE INHERITANCE ON MULTIPLE LEVEL]
+# INTERFACES [TO USE INHERITANCE ON MULTIPLE LEVEL] [IS A CONTRACT WHOCH ANY CLASS TRIED TO IMPLEMENT HAS TO FULFILL TAHT CONTRACT  ]
 -->Implement multiple inheritance
 -->Implement 100% abstraction
 -->all the variables are public static and final by default
