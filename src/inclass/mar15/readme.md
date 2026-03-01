@@ -18,8 +18,6 @@ method that supposed to be called is evaluate at run time
 
 
 
-
-
 # ABSTRACTION [SHOWING ONLY ESSENTIAL DETAILS]
 
 1. ABSTRACT CLASS ==> 0-100% [can contain abstract{  ABSTRACT METHOD DOES NOT HAVE BODY } or non abstract method ] [ ABSTRACT METHOD DOES NOT HAVE BODY ]

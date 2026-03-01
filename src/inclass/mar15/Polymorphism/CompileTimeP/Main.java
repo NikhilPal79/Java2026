@@ -1,4 +1,4 @@
-package inclass.mar15.Polymorphism.RunCompileTimeP;
+package inclass.mar15.Polymorphism.CompileTimeP;
 
 public class Main {
     static void main(String[] args) {

@@ -15,8 +15,8 @@ public class Main {
         System.out.println("REF IS PARENT CLASS, OBJECT IS CHILD CLASS, ONLY ON RUN TIME METHOD IS ALLOCATED WHICH IS CHILD CLASS IN THIS CASE ");
         System.out.println();
 
-        Shape rectangle = new Rectangle();
-        System.out.println(rectangle.area());
+        Shape sq     = new Rectangle();
+        System.out.println(sq.area());
         System.out.println("REF IS PARENT CLASS, OBJECT IS CHILD CLASS, ONLY ON RUN TIME METHOD IS ALLOCATED WHICH IS PARENT CLASS IN THIS CASE");
     }
 }
