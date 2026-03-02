@@ -16,7 +16,7 @@ TO DEAL WITH THEM
 2. catch
 3. finally
 4. throw [TO CREATE YOUR OWN EXCEPTION ]
-5. throws [added to the method signature // delicating your responsibility to someone else // someone will handle it]
+5. throws [added to the method signature // dedicating your responsibility to someone else // someone will handle it]
 
 
 # TWO TYPEs OF EXCEPTION 
