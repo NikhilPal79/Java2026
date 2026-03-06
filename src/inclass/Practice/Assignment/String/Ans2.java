@@ -1,6 +1,4 @@
-package inclass.Assignment.String;
-
-import java.util.Arrays;
+package inclass.Practice.Assignment.String;
 
 public class Ans2 {
     static void main(String[] args) {

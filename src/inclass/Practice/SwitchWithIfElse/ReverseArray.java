@@ -1,4 +1,4 @@
-package inclass.Practice;
+package inclass.Practice.SwitchWithIfElse;
 
 public class ReverseArray {
     static void main(String[] args) {

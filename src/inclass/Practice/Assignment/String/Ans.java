@@ -1,4 +1,4 @@
-package inclass.Assignment.String;
+package inclass.Practice.Assignment.String;
 
 public class Ans {
     static void main(String[] args) {

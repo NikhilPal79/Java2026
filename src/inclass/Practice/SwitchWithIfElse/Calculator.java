@@ -1,4 +1,4 @@
-package inclass.Practice;
+package inclass.Practice.SwitchWithIfElse;
 
 import java.util.Scanner;
 

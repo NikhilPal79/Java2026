@@ -33,7 +33,7 @@ OBJECT stores in heap
 
 # STATIC 
 1. VARIABLE 
-2. METHOD 
+2. METHOD ===>[you dont need to creat an object, static method can be callled directly with class name ]
 3. CLASS ====> STATIC INNER CLASS, INNER CLASS, ANONYMOUS INNER CLASS >>>> LATER 
 4. BLOCK [IT WILL RUN BEFORE ANY METHOD BCZ IT WILL LOAD IN THE MEMORY FIRST ]
 5. INSTANCE 

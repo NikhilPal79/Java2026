@@ -1,6 +1,4 @@
-package inclass.Assignment.Array;
-
-import java.util.Arrays;
+package inclass.Practice.Assignment.Array;
 
 public class TwoDimen {
     static void main(String[] args) {

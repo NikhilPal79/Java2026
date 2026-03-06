@@ -1,6 +1,5 @@
-package inclass.Practice;
+package inclass.Practice.SwitchWithIfElse;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class RogersCx {
