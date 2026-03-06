@@ -1,4 +1,4 @@
-package inclass.mar25.InnerNestedClass;
+package inclass.mar25.MemberInnerClass;
 
 public class OuterClass {
 
