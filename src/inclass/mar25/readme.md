@@ -10,8 +10,8 @@
 
 1. Local Inner class --- [class inside a method] 
 2. Member Inner class --- [class inside a class]
-3. Static Inner class - [V.Imp] [static class inside the class]
-4. Anonymous Inner class - [V.Imp] []
+3. Static Inner class - [V.Imp] [static class inside the class][ ofently used in productivity code ]
+4. Anonymous Inner class - [V.Imp] [if we need to implenet only one method of each class, we should follow this stratgy, saving memory]
 
 
 # STATIC [In Java, the static keyword is used to indicate that a method, variable, block, or nested class belongs to the class itself]
