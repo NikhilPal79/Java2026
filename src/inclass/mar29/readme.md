@@ -58,6 +58,9 @@
 
 
 # MAVEN [build tool/{alternate---> GRADLE }][to use library we need maven ]
+1. mvn clean install 
+2. mvn package 
+3. mvn test
 
 # LOMBOK [ it is library  ][  to reduce boilerplate code ]
 
