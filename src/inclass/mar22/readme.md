@@ -19,6 +19,9 @@ TO DEAL WITH THEM
 5. throws [added to the method signature // dedicating your responsibility to someone else // someone will handle it]
 
 
+# HOW TO AVOID FINALLY BLOCK TO EXECUTE [Calling System.exit() ]
+
+
 # TWO TYPEs OF EXCEPTION 
 1. COMPILE TIME [CHECKED][EXCEPTION : FILE NOT FOUND, THREAD NOT FOUND]
 2. RUN TIME [UNCHECKED EXCEPTION][]

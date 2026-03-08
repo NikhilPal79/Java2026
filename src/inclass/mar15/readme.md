@@ -23,3 +23,7 @@ method that supposed to be called is evaluate at run time
 1. ABSTRACT CLASS ==> 0-100% [can contain abstract{  ABSTRACT METHOD DOES NOT HAVE BODY } or non abstract method ] [ ABSTRACT METHOD DOES NOT HAVE BODY ]
 2. INTERFACES ======> 100%
 
+
+
+# MARKER INTERFACE [that interface without anything inside, it just marks the class]
+
