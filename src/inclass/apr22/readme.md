@@ -16,7 +16,7 @@
 
 
 
-# then HashMap stores entries based on hashCode at the time of put().If the key mutates and hashCode changes get() searches in a different bucket and finds nothing — returning null
+# then HashMap stores entries based on hashCode at the time of put().If the key mutates and hashCode changes then get() searches in a different bucket and finds nothing — returning null
 
 
 
