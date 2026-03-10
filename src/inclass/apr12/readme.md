@@ -36,6 +36,18 @@ case 2:
 what if the [.equal method ] = true, that means the keys and hashCode have the same value as that previous value will be overwritten 
 
 
+# JAVA 8 
+
+in java 8,
+hashMap replaces the linked list with a binary tree when the number of elements in a bucker reaches a certain threshold.
+While converting the 
+list to binary tree, hashCode is used as a branching variable.
+If there are two diff hashcode in the same bucket, one is considered bigger and goes
+to right of the tree and the other one goes to left, But when both the hashcode are equal,
+HashMap assumes that the keys area is comparable, and compares the 
+key to determine the direction so that some order can eb maintained.
+
+
 
 
 
