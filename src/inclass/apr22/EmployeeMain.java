@@ -3,7 +3,7 @@ package inclass.apr22;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Main {
+public class EmployeeMain {
     static void main(String[] args) {
 
 
