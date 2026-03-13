@@ -7,8 +7,6 @@ public class StudentsMain {
     static void main(String[] args) {
 
 
-
-
         NonStatic nonStatic = new NonStatic();
 
         Students student1 = Students.builder().id(1).firstName("nikhil").lastName("p").grade(89).build();

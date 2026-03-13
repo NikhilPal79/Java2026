@@ -3,6 +3,8 @@ package inclass.may03.Stream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
+import java.util.stream.Stream;
 
 public class Test {
     static void main(String[] args) {
@@ -33,6 +35,15 @@ public class Test {
                 .map(s-> s.getFirstName())
                 .distinct()
                 .forEach(s -> System.out.println(s));
+        System.out.println();
+
+        Integer optionalInteger = Stream.generate(() -> (int) (Math.random() * 1000))
+                .limit(3)
+                .filter(i -> i % 3 == 0)
+                .findFirst().orElseGet(() -> 10);
+
+        System.out.println(optionalInteger);
+
 
     }
 }
