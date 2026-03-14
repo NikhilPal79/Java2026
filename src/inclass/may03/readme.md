@@ -4,7 +4,7 @@
 # DIFFERENCE IN PARALLEL.STREAM AND SEQUENTIAL STREAM 
 1. SEQUENTIAL STREAM [MAINTAIN THE DATA][REASON = processes elements one by one in order on a single thread.][FOR SMALL DATASET]
 2. PARALLEL.STREAM [DOES NOT MAINTAIN THE DATA][REASON = splits data across multiple threads simultaneously for faster processing]
-[ but order is not guaranteed and requires thread-safe operations!][USED FOR LARGE DATA[TO FIX FOR EACH ORDERED] ]
+[ but order is not guaranteed and requires thread-safe operations!][USED FOR LARGE DATA][TO FIX use FOR EACH ORDERED] 
 
 
 # DESIGN PATTERN [][why there is need ?]
@@ -17,8 +17,8 @@
 
 
 # METHOD REFERENCE OPERATOR [DENOTED BY => ::][]
-1. STATIC [class :: method name ][no need to create object class ]
-2. NON-STATIC [class :: method name] [need to create object of class ]
+1. STATIC METHOD [class :: method name ][no need to create object class ]
+2. NON-STATIC METHOD [class :: method name] [need to create object of class ]
 
 # Stream.generate [calls the supplier repeatedly][always use .limit()====> without it it runs forever]
 

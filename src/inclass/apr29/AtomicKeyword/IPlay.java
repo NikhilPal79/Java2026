@@ -1,4 +1,4 @@
-package inclass.apr29.LmbdaLocalVariable;
+package inclass.apr29.AtomicKeyword;
 @FunctionalInterface
 public interface IPlay {
 

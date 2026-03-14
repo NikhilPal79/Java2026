@@ -3,8 +3,8 @@
 
 
 # CLASS AS KEY IN MAP 
-1.  override the hashCode and equals method 
-2.   make class immutable
+1. override the hashCode and equals method 
+2. make class immutable
 
 [ HOW TO MAKE CLASS IMMUTABLE 100% ]
 

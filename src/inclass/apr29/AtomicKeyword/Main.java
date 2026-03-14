@@ -1,6 +1,4 @@
-package inclass.apr29.LmbdaLocalVariable;
-
-import java.util.concurrent.atomic.AtomicInteger;
+package inclass.apr29.AtomicKeyword;
 
 public class Main {
     static void main(String[] args) {

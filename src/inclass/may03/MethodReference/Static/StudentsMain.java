@@ -2,12 +2,15 @@ package inclass.may03.MethodReference.Static;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
+import java.util.stream.Stream;
 
 public class StudentsMain {
     static void main(String[] args) {
 
 
         NonStatic nonStatic = new NonStatic();
+        Random random = new Random();
 
         Students student1 = Students.builder().id(1).firstName("nikhil").lastName("p").grade(89).build();
         Students student2 = Students.builder().id(2).firstName("sawan").lastName("s").grade(99).build();
@@ -24,7 +27,12 @@ public class StudentsMain {
                 .filter(g->g.getGrade() >= 90)
                 .filter(s-> s.getLastName().startsWith("s"))
                 .map(StudentsMarks :: graceMarks)  ///  for static method
-                .map(nonStatic:: lastNameFunction) /// for non static method
+                .map(nonStatic:: lastNameFunction) /// for non-static method
                 .forEach(name -> System.out.println(name));
+
+        Double v = Stream.generate(() -> random.nextDouble() * 1000)
+                .limit(10).sorted().filter(i -> i % 2 == 0).findFirst().orElseGet(() -> 23.23);
+        System.out.println(v);
+
     }
 }

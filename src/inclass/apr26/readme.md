@@ -1,5 +1,5 @@
 # JAVA 8 [WHY JAVA 8]
-1. conciseness in the code by enabling by lambdas expression
+1. conciseness in the code by enabling lambdas expression
 [MAIN ADVANTAGE]
 2. LESS BOILER PLATE CODE
 3. MORE READABLE ANS REUSABLE CODE 
@@ -14,8 +14,17 @@
 5. METHOD REFERENCE 
 6. DATE TIME 
 
-# FUNCTIONAL INTERFACE[only 1 method without body][can have number of static method and default method][static must return]
-[4 type of functional interface]
+# FUNCTIONAL INTERFACE[INTERFACE WITH EXACTLY ONE ABSTRACT METHOD]
+[only 1 method without body][can have number of static method and default method][static must return]
+
+# WHY do WE USE FUNCTIONAL INTERFACE ?
+1. Enable Lambda Expressions
+2. Cleaner, Concise Code 
+3. Power the Stream API
+4. enable  Built-in Functional Interfaces 
+5. enable Method References
+
+[4 type of BUILT-IN functional interface]
 
 1. PREDICATE< T > = TEST A CONDITION         == RETURN => BOOLEAN(TRUE/FALSE)
 2. FUNCTION <T,R> = INTAKE T                 == RETURN R =>
