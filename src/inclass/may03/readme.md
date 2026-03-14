@@ -1,9 +1,13 @@
 # STREAM METHOD [maintain order of insertion ]
 1. generate 
-# diffrence between parallel.Stream and Stream 
+
+# DIFFERENCE IN PARALLEL.STREAM AND SEQUENTIAL STREAM 
+1. SEQUENTIAL STREAM [MAINTAIN THE DATA][REASON = processes elements one by one in order on a single thread.][FOR SMALL DATASET]
+2. PARALLEL.STREAM [DOES NOT MAINTAIN THE DATA][REASON = splits data across multiple threads simultaneously for faster processing]
+[ but order is not guaranteed and requires thread-safe operations!][USED FOR LARGE DATA[TO FIX FOR EACH ORDERED] ]
 
 
-# DESIGN PATTERN [https://refactoring.guru/design-patterns/classification][why there is need ?]
+# DESIGN PATTERN [][why there is need ?]
 1. CREATIONAL =>[SIGNLETON DP][ABSTRACT FACTORY][BUILDER]
 2. STRUCTURAL =>[FACADE][PROXY]
 3. BEHAVIORAL =>[][][]
