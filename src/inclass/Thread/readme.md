@@ -27,6 +27,10 @@ but by implementing the Runnable interface, it is possible to extend from anothe
 
 # Deadlock vs Livelock vs Starvation
 
-1. DEADLOCK [FROZEN FOREVER][Two or more threads are permanently blocked, each waiting for a resource held by the other. Nobody moves. Nobody gives up.]
-2. LIVELOCK [BUZY BUT STUCK][Two or more threads are actively running but keep reacting to each other and never make actual progress.CPU is being used but nothing gets done]
+1. DEADLOCK [FROZEN FOREVER]
+[Two or more threads are permanently blocked, each waiting for a resource held by the other. Nobody moves. Nobody gives up.]
+[prevent = > use lock ordering , try lock with timing ]
+2. LIVELOCK [BUZY BUT STUCK]
+[Two or more threads are actively running but keep reacting to each other and never make actual progress.CPU is being used but nothing gets done]
+[prevent => priority, randomized retry delays ]
 3. STARVATION [ALWAYS IGNORED][One thread is perpetually denied CPU time because other higher-priority threads always get resources first.The low-priority thread is alive but never runs.]
