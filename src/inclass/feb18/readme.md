@@ -10,15 +10,11 @@
 # MULTI LINE COMMENT ===> CTRL + SHIFT + /
 
 
-
 # LOOPS 
 
 while
 do while
-for loop 
-
-
-
+for loop
 for each loop 
 
 # BREAK AND CONTINUE 

@@ -10,7 +10,6 @@ InventoryService → listens → processes → emits "InventoryUpdated"
 ShippingService → listens → processes → emits "ShipmentCreated"
 
 
-
 On Failure:
 ShippingService fails → emits "ShipmentFailed"
 ↓

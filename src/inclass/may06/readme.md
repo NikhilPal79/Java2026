@@ -4,7 +4,7 @@
 
 
 
-# SPRING FRAMEWORK [Spring Framework is a Java application framework that provides infrastructure support for building enterprise Java applications]
+# SPRING [Spring Framework is a Java application framework that provides infrastructure support for building enterprise Java applications]
 # SPRING BOOT [Spring Boot is built **ON TOP of Spring Framework]
 
 

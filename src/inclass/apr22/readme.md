@@ -1,7 +1,5 @@
 # practical of hashmap and equal
 
-
-
 # CLASS AS KEY IN MAP 
 1. override the hashCode and equals method 
 2. make class immutable
