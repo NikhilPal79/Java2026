@@ -22,13 +22,15 @@ first in and last out
 last in first out 
 
 LOCAL VARIABLE
-REFERENCE of OBJECT s
+REFERENCE of OBJECTs
 
 
 2. HEAP
 
 INSTANCE VARIABLE in heap
 OBJECT stores in heap  
+
+3. SPRING CONSTANT POOL 
 
 
 # STATIC 

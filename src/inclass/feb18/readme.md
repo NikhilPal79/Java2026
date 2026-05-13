@@ -12,9 +12,10 @@
 
 # LOOPS 
 
-while
+while [when you do not have the iteration of the class ]
 do while
-for loop
+for loop [when you know the no of iteration]
 for each loop 
 
-# BREAK AND CONTINUE 
+# BREAK [to stop the iteration]
+# CONTINUE [to skip the iteration ]

@@ -9,7 +9,11 @@
 
 
 # Difference BETWEEN THEM 
-Spring Framework provides the core features like IOC, DI, and MVC
+Spring Framework provides core features like IOC, DI, and MVC
 but requires lots of manual configuration.
-Spring Boot is Spring Framework with auto configuration, embedded server,
-and starter dependencies — so you focus on code, not setup!9.
+Spring Boot is Spring Framework with autoconfiguration, embedded server,
+and starter dependencies — so you focus on code, not setup!
+
+
+
+# LAZY LOADING AND INITIAL LOADING  
