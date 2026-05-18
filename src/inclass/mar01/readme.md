@@ -12,7 +12,7 @@ local to method or constructor [present inside the constructor ]
 
 3. STATIC VARIABLE
 
- belongs to class rather than the instance of the class [more it's going to repeat use static]g
+ belongs to class rather than the instance of the class [more it's going to repeat use static]
 
 # MEMORY
 
@@ -33,15 +33,15 @@ OBJECT stores in heap
 3. SPRING CONSTANT POOL 
 
 
-# STATIC 
+# STATIC  WORD 
 1. VARIABLE 
-2. METHOD ===>[you dont need to creat an object, static method can be callled directly with class name ]
+2. METHOD ===>[you don't need to creat an object, static method can be called directly with class name ]
 3. CLASS ====> STATIC INNER CLASS, INNER CLASS, ANONYMOUS INNER CLASS >>>> LATER 
 4. BLOCK [IT WILL RUN BEFORE ANY METHOD BCZ IT WILL LOAD IN THE MEMORY FIRST ]
 5. INSTANCE 
 
 # ANONYMOUS OBJECT 
-which dont have reference name
+which don't have reference name
 
 # JVM, JRE, JDK 
 

@@ -15,7 +15,7 @@ WE USE NESTED LOOP
 # STRINGS 
 character array
 is  a class 
-non - primitive data type[that we cant change ]
+non - primitive data type [that we cant change ]
 strings are immutable [ that we cant change ] [because we can not change the actual object of the string ]
 
 # 2 WAYS TO CREATE STRINGS 
@@ -36,7 +36,7 @@ String name = new String("Pragra");      {in this Pragra directly stored in [HEA
 
 
 # INTERVIEW 
-HOW TO CONVERT STRING INTO REVERSE STRING[CONVERT IT INTO ARRAY]
+HOW TO CONVERT STRING INTO REVERSE STRING  [CONVERT IT INTO ARRAY]
 
 
 # GARBAGE COLLECTION [INTERVIEW]

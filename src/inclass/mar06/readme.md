@@ -15,7 +15,7 @@ developers branch -----------------------------------------> for testing/QA
 4. git branch -D name [delete the branch ]
 
 # MERGE COMMANDS 
-1. [giving command from main]git merge staging
+1. [giving command from main] git merge staging
 2. [giving command from staging] git merge testing 
 
 
