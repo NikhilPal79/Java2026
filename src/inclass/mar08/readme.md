@@ -1,6 +1,6 @@
 # MUTABLE STRINGS 
 1. STRING BUFFER [thread-safe ] [multi code @ same time, ][inconsistency, slower due to synchronization ]
-2. STRING BUILDER [not-thread safe][only one code@ one time ][consistency, faster due to non synchronization]
+2. STRING BUILDER [not-thread safe][only one code@ one time ][ consistency, faster due to non synchronization]
 
 
 # INTERVIEW [ IMP DIFF BETWEEN STRING, STRING BUILDER, STRING BUFFER ][ IN TERMS OF MUTABLE AND MUTABILITY  ]

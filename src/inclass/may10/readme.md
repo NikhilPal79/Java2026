@@ -34,3 +34,22 @@
 # WAR [WEB APPLICATION ARCHIVE ][ require a servlet container (like Apache Tomcat or Jetty) to execute]
 
 # NO DIFFERENCE IN TERMS OF FUNCTIONALITY IN WAR & JAR
+
+# IOC 
+HOW TO CREATE BEANS 
+what problem does ioc solve ?
+it helps to create loosely coupled code [don't hardcode any value ]
+1. XML - BEANS/XML
+2. @CONFIG ANNOTATION 
+3. @COMPONENT 
+
+
+FileSystemApplicationContext [you have to create a object of file]
+ClassPathApplicationContext [you have to give name of file]
+
+
+# application context will create the bean but spring container is the shelf which holds all the bean 
+
+# PROBLEM IN XML
+[IF YOU CREATE 2 BEAN OF DIFF MOVIES STILL GIVES YOU RUN TIME ERROR,BCZ APPLICAION.CONTEXT DON'T KNOW WHICH MOVIE BEAN NEED TO CREATE]
+SOLUTION [WHEN YOU PROVIDE THE FILE NAME,ALSO PROVIDE THE BEAN NAME AS WELL ]
