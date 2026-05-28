@@ -17,3 +17,8 @@
 
 @configuration [when spring needs to scan the class, class go to look for @configuration ]
 @bean [bean creation comes from @bean]
+
+# SPRINGBOOT APPLICATION [consist of three things]
+1. @EnableAutoConfiguration 
+2. @ComponentScan [scan your base package]
+3. @Configuraiton []
