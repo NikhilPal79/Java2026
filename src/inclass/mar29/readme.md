@@ -7,8 +7,7 @@
 
 # IMMUTABLE CLASSES [V.IMP][we can not change the object, whenever we assign the value it creates the new object in heap memory  ]
 
-# IN ORDER TO GET FULLY IMMUTABLE CLASSES 
-
+# IN ORDER TO GET FULLY IMMUTABLE CLASSES
 1. all the fields should be [private] and [final] 
 2. [class] should be [final] 
 3. there should be [no setter] methods we should
@@ -24,7 +23,7 @@
 2. Its framework for modifying/manipulating objects.
 3. It has set of interfaces and classes which are already defined for us.
 
-                            Iterable
+                            Iterable[I]
                                |
                           Collection [I]
                         |            |               |
